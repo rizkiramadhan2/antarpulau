@@ -37,7 +37,7 @@
                 <div class="bg-mask-darken"></div>
                 
                 <div class="bg-holder-content full text-white">
-                    <a class="logo-holder" href="index.html">
+                    <a class="logo-holder">
                     <img class="bg-mask-lighten" src="<?php echo base_url().'img/antarpulau.svg' ?>" height="70px" alt=""> </img>
                     </a>
                     <div class="full-center">
@@ -47,7 +47,7 @@
                             <div class="countdown countdown-lg"  data-countdown="Oct 06, 2017" id="countdown"></div>
                              <div class="gap"></div>
                             <p class="col-md-12 col-sm-12 hidden-xs text-center ">For more information send us email to <a style="color: orange" href="#">admin@antarpulaucargo.com</a></p>
-                            <p class="hidden-sm hidden-md hidden-lg col-xs-12 text-center ">For more information send us <br>email admin@antarpulaucargo.com</p>
+                            <p class="hidden-sm hidden-md hidden-lg col-xs-12 text-center ">For more information send us <br><a style="color: orange" href="#">admin@antarpulaucargo.com</a></p>
                         </div>
                         </div>
                     </div>
