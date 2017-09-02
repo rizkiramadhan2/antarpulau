@@ -33,6 +33,7 @@
         <div class="full-page text-center">
             <div class="bg-holder full">
 
+            <div class="bg-img" style="background-image:url(template/img/backgrounds/taxi.jpg);"></div>
             <video class="bg-video hidden-sm hidden-xs" preload="auto" autoplay="true" loop="loop" muted="muted" poster="template/img/video-bg.jpg">
                     <source src="template/media/loop.webm" type="video/webm" />
                     <source src="template/media/loop.mp4" type="video/mp4" />
