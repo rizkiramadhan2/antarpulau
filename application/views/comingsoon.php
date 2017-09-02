@@ -2,7 +2,7 @@
 <html class="full">
 
 <head>
-    <title>Antar Pulau - Comming soon</title>
+    <title>Antar Pulau - Coming soon</title>
 
 
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
