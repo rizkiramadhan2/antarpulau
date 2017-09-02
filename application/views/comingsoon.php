@@ -50,8 +50,8 @@
                             <h3 class="text-color">We're Coming Soon</h3>
                             <div class="countdown countdown-lg"  data-countdown="Oct 06, 2017" id="countdown"></div>
                              <div class="gap"></div>
-                            <p class="col-md-12 col-sm-12 hidden-xs text-center ">For more information send us email to <a class="text-color" href="#">admin@antarpulaucargo.com</a></p>
-                            <p class="hidden-sm hidden-md hidden-lg col-xs-12 text-center ">For more information send us email to <br><a class="text-color" href="#">admin@antarpulaucargo.com</a></p>
+                            <p class="col-md-12 col-sm-12 hidden-xs text-center ">For more information send us email to <a class="text-color" href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=admin@antarpulaucargo.com&su=&body=&tf=1">admin@antarpulaucargo.com</a></p>
+                            <p class="hidden-sm hidden-md hidden-lg col-xs-12 text-center ">For more information send us email to <br><a class="text-color" href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=admin@antarpulaucargo.com&su=&body=&tf=1">admin@antarpulaucargo.com</a></p>
                         </div>
                         </div>
                         <div class="gap"></div>
