@@ -26,7 +26,7 @@
     <div>
 
         <p>For more information send us email <a href="#">admin@antarpulaucargo.com</a><br>or Call +6281252548488  </p>
-        <p style="color: grey">&mdash; The Dragon</p>
+        <p style="color: grey">&mdash; Jon Snow</p>
     </div>
 </article>
 </body>
