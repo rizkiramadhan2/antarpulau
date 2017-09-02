@@ -41,8 +41,8 @@
 }
     </style>
 </head>
-
-<body class="full">
+<div class="loading" style="display: block;"></div>
+<body class="full page" style="display: none">
 
     
     <div class="global-wrap">
