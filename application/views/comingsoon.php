@@ -50,6 +50,7 @@
                             <p class="hidden-sm hidden-md hidden-lg col-xs-12 text-center ">For more information send us email to <br><a style="color: orange" href="https://mail.google.com/mail/u/0/?labs=0#inbox?compose=15e431eb1e711155">admin@antarpulaucargo.com</a></p>
                         </div>
                         </div>
+                        <div class="gap"></div>
                     </div>
                     
                 </div>
