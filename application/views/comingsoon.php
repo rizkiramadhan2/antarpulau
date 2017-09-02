@@ -22,27 +22,10 @@
     <link rel="stylesheet" href="<?php echo base_url().'template/css/mystyles.css' ?>">
     <script src="<?php echo base_url().'template/js/modernizr.js' ?>"></script>
 
-    <style type="text/css">
-        #page {
-    display: none;
-}
-#loading {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 100;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(192, 192, 192, 0.5);
-    background-image: url("http://i.stack.imgur.com/MnyxU.gif");
-    background-repeat: no-repeat;
-    background-position: center;
-}
-    </style>
+
 </head>
-<div class="loading" style="display: block;"></div>
-<body class="full page" style="display: none">
+
+<body class="full">
 
     
     <div class="global-wrap">
@@ -98,26 +81,7 @@
         <script src="<?php echo base_url().'template/js/custom.js' ?>"></script>
     </div>
 </body>
-<script type="text/javascript">
-    function onReady(callback) {
-    var intervalID = window.setInterval(checkReady, 1000);
-    function checkReady() {
-        if (document.getElementsByTagName('body')[0] !== undefined) {
-            window.clearInterval(intervalID);
-            callback.call(this);
-        }
-    }
-}
 
-function show(id, value) {
-    document.getElementById(id).style.display = value ? 'block' : 'none';
-}
-
-onReady(function () {
-    show('page', true);
-    show('loading', false);
-});
-</script>
 </html>
 
 
