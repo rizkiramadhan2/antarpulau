@@ -9979,8 +9979,8 @@ span.count {
   border-bottom: 1px solid rgba(255,255,255,0.15);
 }
 .countdown-lg span.count {
-  font-size: 70px;
-  margin-bottom: 10px;
+  font-size: 35px;
+  margin-bottom: -10px;
 }
 .countdown-lg > div {
   padding: 0 25px;

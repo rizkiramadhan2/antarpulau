@@ -43,10 +43,10 @@
                     <div class="full-center">
                         <div class="container">
                         <div class="col-md-6 col-md-offset-3">
-                            <h2>We're Comming Soon</h2>
+                            <h3>We're Comming Soon</h3>
                             <div class="countdown countdown-lg"  data-countdown="Oct 06, 2017" id="countdown"></div>
                              <div class="gap"></div>
-                            <p class="col-md-12 col-sm-12 hidden-xs text-center ">For more information send us email admin@antarpulaucargo.com</p>
+                            <p class="col-md-12 col-sm-12 hidden-xs text-center ">For more information send us email to <a style="color: orange" href="#">admin@antarpulaucargo.com</a></p>
                             <p class="hidden-sm hidden-md hidden-lg col-xs-12 text-center ">For more information send us <br>email admin@antarpulaucargo.com</p>
                         </div>
                         </div>
