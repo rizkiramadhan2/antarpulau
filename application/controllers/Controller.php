@@ -23,6 +23,6 @@ class Controller extends CI_Controller {
 //$this->load->view('welcome_message');
 	}
         public function maintenance(){ //Maintenance function     
-$this->load->view('maintenance'); 
+$this->load->view('comingsoon'); 
         }
 }
