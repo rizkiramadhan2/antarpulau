@@ -25,7 +25,7 @@
     <h2>This site is under construction</h2><hr>
     <div>
 
-        <p>For more information send us email <a href="#">admin@antarpulaucargo.com</a><br>or contact +6281252548488  </p>
+        <p>For more information send us email <a href="#">admin@antarpulaucargo.com</a><br>or call +6281252548488  </p>
         <p style="color: grey">&mdash; The Team</p>
     </div>
 </article>
