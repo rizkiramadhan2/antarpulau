@@ -27,19 +27,7 @@
 
 <body class="full">
 
-    <!-- FACEBOOK WIDGET -->
-    <div id="fb-root"></div>
-    <script>
-        (function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s);
-            js.id = id;
-            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-    </script>
-    <!-- /FACEBOOK WIDGET -->
+    
     <div class="global-wrap">
 
         <div class="full-page text-center">
@@ -54,9 +42,13 @@
                     </a>
                     <div class="full-center">
                         <div class="container">
+                        <div class="col-md-6 col-md-offset-3">
                             <h2>We're Comming Soon</h2>
-                         
-                            
+                            <div class="countdown countdown-lg"  data-countdown="Oct 06, 2017" id="countdown"></div>
+                             <div class="gap"></div>
+                            <p class="col-md-12 col-sm-12 hidden-xs text-center ">For more information send us email admin@antarpulaucargo.com</p>
+                            <p class="hidden-sm hidden-md hidden-lg col-xs-12 text-center ">For more information send us <br>email admin@antarpulaucargo.com</p>
+                        </div>
                         </div>
                     </div>
                     
@@ -66,26 +58,26 @@
 
 
 
-     <!--   <script src="js/jquery.js"></script>
-        <script src="js/bootstrap.js"></script>
-        <script src="js/slimmenu.js"></script>
-        <script src="js/bootstrap-datepicker.js"></script>
-        <script src="js/bootstrap-timepicker.js"></script>
-        <script src="js/nicescroll.js"></script>
-        <script src="js/dropit.js"></script>
-        <script src="js/ionrangeslider.js"></script>
-        <script src="js/icheck.js"></script>
-        <script src="js/fotorama.js"></script>
-        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
-        <script src="js/typeahead.js"></script>
-        <script src="js/card-payment.js"></script>
-        <script src="js/magnific.js"></script>
-        <script src="js/owl-carousel.js"></script>
-        <script src="js/fitvids.js"></script>
-        <script src="js/tweet.js"></script>
-        <script src="js/countdown.js"></script>
-        <script src="js/gridrotator.js"></script>
-        <script src="js/custom.js"></script>-->
+        <script src="<?php echo base_url().'template/js/jquery.js' ?>"></script>
+        <script src="<?php echo base_url().'template/js/bootstrap.js' ?>"></script>
+        <script src="<?php echo base_url().'template/js/slimmenu.js' ?>"></script>
+        <script src="<?php echo base_url().'template/js/bootstrap-datepicker.js' ?>"></script>
+        <script src="<?php echo base_url().'template/js/bootstrap-timepicker.js' ?>"></script>
+        <script src="<?php echo base_url().'template/js/nicescroll.js' ?>"></script>
+        <script src="<?php echo base_url().'template/js/dropit.js' ?>"></script>
+        <script src="<?php echo base_url().'template/js/ionrangeslider.js' ?>"></script>
+        <script src="<?php echo base_url().'template/js/icheck.js' ?>"></script>
+        <script src="<?php echo base_url().'template/js/fotorama.js' ?>"></script>
+        <script src="<?php echo base_url().'template/https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false' ?>"></script>
+        <script src="<?php echo base_url().'template/js/typeahead.js' ?>"></script>
+        <script src="<?php echo base_url().'template/js/card-payment.js' ?>"></script>
+        <script src="<?php echo base_url().'template/js/magnific.js' ?>"></script>
+        <script src="<?php echo base_url().'template/js/owl-carousel.js' ?>"></script>
+        <script src="<?php echo base_url().'template/js/fitvids.js' ?>"></script>
+        <script src="<?php echo base_url().'template/js/tweet.js' ?>"></script>
+        <script src="<?php echo base_url().'template/js/countdown.js' ?>"></script>
+        <script src="<?php echo base_url().'template/js/gridrotator.js' ?>"></script>
+        <script src="<?php echo base_url().'template/js/custom.js' ?>"></script>
     </div>
 </body>
 
