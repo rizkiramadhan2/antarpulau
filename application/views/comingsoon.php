@@ -46,8 +46,8 @@
                             <h3>We're Comming Soon</h3>
                             <div class="countdown countdown-lg"  data-countdown="Oct 06, 2017" id="countdown"></div>
                              <div class="gap"></div>
-                            <p class="col-md-12 col-sm-12 hidden-xs text-center ">For more information send us email to <a style="color: orange" href="https://mail.google.com/mail/u/0/?labs=0#inbox?compose=15e431eb1e711155">admin@antarpulaucargo.com</a></p>
-                            <p class="hidden-sm hidden-md hidden-lg col-xs-12 text-center ">For more information send us email to <br><a style="color: orange" href="https://mail.google.com/mail/u/0/?labs=0#inbox?compose=15e431eb1e711155">admin@antarpulaucargo.com</a></p>
+                            <p class="col-md-12 col-sm-12 hidden-xs text-center ">For more information send us email to <a style="color: orange" href="#">admin@antarpulaucargo.com</a></p>
+                            <p class="hidden-sm hidden-md hidden-lg col-xs-12 text-center ">For more information send us email to <br><a style="color: orange" href="#">admin@antarpulaucargo.com</a></p>
                         </div>
                         </div>
                         <div class="gap"></div>
