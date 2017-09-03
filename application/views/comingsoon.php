@@ -47,7 +47,7 @@
                     <div class="full-center">
                         <div class="container">
                         <div class="col-md-6 col-md-offset-3">
-                            <h3 class="">We're Coming Soon</h3>
+                            <h3 class="text-color">We're Coming Soon</h3>
                             <div class="countdown countdown-lg"  data-countdown="Oct 06, 2017" id="countdown"></div>
                              <div class="gap"></div>
                             <p class="col-md-12 col-sm-12 hidden-xs text-center ">For more information send us email to <a target="_blank" class="text-color" href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=admin@antarpulaucargo.com&su=&body=&tf=1">admin@antarpulaucargo.com</a></p>
