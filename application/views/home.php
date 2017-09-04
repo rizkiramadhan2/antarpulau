@@ -475,84 +475,30 @@
                                 <button class="btn btn-primary btn-lg" type="submit">Search for Vacation Rentals</button>
                             </form>
                         </div>
-                        <div class="tab-pane fade" id="tab-4">
-                            <h2>Search for Cheap Rental Cars</h2>
-                            <form>
-                                <div class="row">
-                                    <div class="col-md-8">
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="form-group form-group-lg form-group-icon-left"><i class="fa fa-map-marker input-icon"></i>
-                                                    <label>Pick-up Location</label>
-                                                    <input class="typeahead form-control" placeholder="City, Airport, U.S. Zip" type="text" />
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="form-group form-group-lg form-group-icon-left"><i class="fa fa-map-marker input-icon"></i>
-                                                    <label>Drop-off Location</label>
-                                                    <input class="typeahead form-control" placeholder="City, Airport, U.S. Zip" type="text" />
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="input-daterange" data-date-format="M d, D">
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <div class="form-group form-group-lg form-group-icon-left"><i class="fa fa-calendar input-icon input-icon-highlight"></i>
-                                                        <label>Pick-up Date</label>
-                                                        <input class="form-control" name="start" type="text" />
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="form-group form-group-lg form-group-icon-left"><i class="fa fa-calendar input-icon input-icon-highlight"></i>
-                                                        <label>Drop-ff Date</label>
-                                                        <input class="form-control" name="end" type="text" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <button class="btn btn-primary btn-lg" type="submit">Search for Rental Cars</button>
-                            </form>
-                        </div>
                         <div class="tab-pane fade" id="tab-5">
-                            <h2>Search for Activities</h2>
+                            <h2>Lacak Kiriman</h2>
                             <form>
                                 <div class="row">
                                     <div class="col-md-8">
                                         <div class="form-group form-group-lg form-group-icon-left"><i class="fa fa-map-marker input-icon"></i>
-                                            <label>Where are you going?</label>
+                                            <label>Masukkan Nomer Resi :</label>
                                             <input class="typeahead form-control" placeholder="City, Airport, Point of Interest or U.S. Zip Code" type="text" />
                                         </div>
                                     </div>
                                     <div class="col-md-4">
-                                        <div class="input-daterange" data-date-format="M d, D">
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <div class="form-group form-group-lg form-group-icon-left"><i class="fa fa-calendar input-icon input-icon-highlight"></i>
-                                                        <label>From</label>
-                                                        <input class="form-control" name="start" type="text" />
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="form-group form-group-lg form-group-icon-left"><i class="fa fa-calendar input-icon input-icon-highlight"></i>
-                                                        <label>To</label>
-                                                        <input class="form-control" name="end" type="text" />
-                                                    </div>
-                                                </div>
-                                            </div>
+
                                         </div>
                                     </div>
+                                      <button class="btn btn-primary btn-lg" type="submit">Lacak</button>
                                 </div>
-                                <button class="btn btn-primary btn-lg" type="submit">Search for Activities</button>
+
                                 </div>
+                                  </div>
                             </form>
                         </div>
                     </div>
                 </div>
-            </div>
+            
 
             <!-- INI FOOTER YA -->
             <div class="gap"></div>
