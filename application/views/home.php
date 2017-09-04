@@ -12,15 +12,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- GOOGLE FONTS -->
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'>
     <!-- /GOOGLE FONTS -->
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/font-awesome.css">
-    <link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/mystyles.css">
-    <script src="js/modernizr.js"></script>
+    <link rel="stylesheet" href="<?php echo base_url().'template/css/bootstrap.css' ?>">
+    <link rel="stylesheet" href="<?php echo base_url().'template/css/font-awesome.css' ?>">
+    <link rel="stylesheet" href="<?php echo base_url().'template/css/icomoon.css' ?>">
+    <link rel="stylesheet" href="<?php echo base_url().'template/css/styles.css' ?>">
+    <link rel="stylesheet" href="<?php echo base_url().'template/css/mystyles.css' ?>">
+    <script src="<?php echo base_url().'template/js/modernizr.js' ?>"></script>
+    <script src="<?php echo base_url().'template/js/jquery.js' ?>"></script>
 
 
 </head>
@@ -1304,27 +1305,26 @@
                 </div>
             </div>
         </footer>
-
-        <script src="js/jquery.js"></script>
-        <script src="js/bootstrap.js"></script>
-        <script src="js/slimmenu.js"></script>
-        <script src="js/bootstrap-datepicker.js"></script>
-        <script src="js/bootstrap-timepicker.js"></script>
-        <script src="js/nicescroll.js"></script>
-        <script src="js/dropit.js"></script>
-        <script src="js/ionrangeslider.js"></script>
-        <script src="js/icheck.js"></script>
-        <script src="js/fotorama.js"></script>
-        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
-        <script src="js/typeahead.js"></script>
-        <script src="js/card-payment.js"></script>
-        <script src="js/magnific.js"></script>
-        <script src="js/owl-carousel.js"></script>
-        <script src="js/fitvids.js"></script>
-        <script src="js/tweet.js"></script>
-        <script src="js/countdown.js"></script>
-        <script src="js/gridrotator.js"></script>
-        <script src="js/custom.js"></script>
+    
+        <script src="<?php echo base_url().'template/js/bootstrap.js' ?>"></script>
+        <script src="<?php echo base_url().'template/js/slimmenu.js' ?>"></script>
+        <script src="<?php echo base_url().'template/js/bootstrap-datepicker.js' ?>"></script>
+        <script src="<?php echo base_url().'template/js/bootstrap-timepicker.js' ?>"></script>
+        <script src="<?php echo base_url().'template/js/nicescroll.js' ?>"></script>
+        <script src="<?php echo base_url().'template/js/dropit.js' ?>"></script>
+        <script src="<?php echo base_url().'template/js/ionrangeslider.js' ?>"></script>
+        <script src="<?php echo base_url().'template/js/icheck.js' ?>"></script>
+        <script src="<?php echo base_url().'template/js/fotorama.js' ?>"></script>
+        <script src="<?php echo base_url().'template/https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false' ?>"></script>
+        <script src="<?php echo base_url().'template/js/typeahead.js' ?>"></script>
+        <script src="<?php echo base_url().'template/js/card-payment.js' ?>"></script>
+        <script src="<?php echo base_url().'template/js/magnific.js' ?>"></script>
+        <script src="<?php echo base_url().'template/js/owl-carousel.js' ?>"></script>
+        <script src="<?php echo base_url().'template/js/fitvids.js' ?>"></script>
+        <script src="<?php echo base_url().'template/js/tweet.js' ?>"></script>
+        <script src="<?php echo base_url().'template/js/countdown.js' ?>"></script>
+        <script src="<?php echo base_url().'template/js/gridrotator.js' ?>"></script>
+        <script src="<?php echo base_url().'template/js/custom.js' ?>"></script>
     </div>
 </body>
 
