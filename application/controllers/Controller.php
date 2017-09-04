@@ -20,7 +20,7 @@ class Controller extends CI_Controller {
 	 */
 	public function index()
 	{
-//$this->load->view('welcome_message');
+$this->load->view('home');
 	}
         public function maintenance(){ //Maintenance function     
 $this->load->view('comingsoon'); 
