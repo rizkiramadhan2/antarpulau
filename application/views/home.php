@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="<?php echo base_url().'template/css/mystyles.css' ?>">
     <script src="<?php echo base_url().'template/js/modernizr.js' ?>"></script>
     <script src="<?php echo base_url().'template/js/jquery.js' ?>"></script>
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url().'template/css/schemes/bright-turquoise.css" title="bright-turquoise" media="all">'?>">
 
 
 </head>
@@ -1305,7 +1306,7 @@
                 </div>
             </div>
         </footer>
-    
+
         <script src="<?php echo base_url().'template/js/bootstrap.js' ?>"></script>
         <script src="<?php echo base_url().'template/js/slimmenu.js' ?>"></script>
         <script src="<?php echo base_url().'template/js/bootstrap-datepicker.js' ?>"></script>
@@ -1329,5 +1330,3 @@
 </body>
 
 </html>
-
-
