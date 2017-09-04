@@ -556,6 +556,8 @@
                     </div>
                 </div>
             </div>
+
+            <!-- INI FOOTER YA -->
             <div class="gap"></div>
             <div class="gap gap-small"></div>
             <h2 class="mb20">Explore Our Top Destinations</h2>
