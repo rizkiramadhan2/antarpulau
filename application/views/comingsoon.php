@@ -21,12 +21,31 @@
     <link rel="stylesheet" href="<?php echo base_url().'template/css/styles.css' ?>">
     <link rel="stylesheet" href="<?php echo base_url().'template/css/mystyles.css' ?>">
     <script src="<?php echo base_url().'template/js/modernizr.js' ?>"></script>
-
-
+    <script src="<?php echo base_url().'template/js/jquery.js' ?>"></script>
+    <style type="text/css">
+        .se-pre-con {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(img/Rolling.svg) center no-repeat #fff;
+    background-color: black;
+}
+    </style>
+    <script>
+    //paste this code under head tag or in a seperate js file.
+    // Wait for window load
+    $(window).load(function() {
+        // Animate loader off screen
+        $(".se-pre-con").fadeOut("slow");;
+    });
+</script>
 </head>
 
 <body class="full">
-
+<div class="se-pre-con"></div>
     
     <div class="global-wrap">
 
@@ -63,7 +82,7 @@
 
 
 
-        <script src="<?php echo base_url().'template/js/jquery.js' ?>"></script>
+        
         <script src="<?php echo base_url().'template/js/bootstrap.js' ?>"></script>
         <script src="<?php echo base_url().'template/js/slimmenu.js' ?>"></script>
         <script src="<?php echo base_url().'template/js/bootstrap-datepicker.js' ?>"></script>
