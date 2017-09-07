@@ -1265,6 +1265,15 @@ background: rgba(255, 255, 255, 0.3);
     background: rgba(255, 255, 255, 0.3);
 }
 
+.search-tabs-bg > .tabbable > .nav-tabs > li > a:hover > .fa{
+color: white;
+}
+
+
+}
+
+
+
 .search-tabs-nobox > .tabbable > .tab-content > .tab-pane {
   padding: 25px 0;
   -webkit-box-shadow: none;
