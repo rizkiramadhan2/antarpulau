@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="<?php echo base_url().'template/css/mystyles.css' ?>">
     <script src="<?php echo base_url().'template/js/modernizr.js' ?>"></script>
     <script src="<?php echo base_url().'template/js/jquery.js' ?>"></script>
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url().'template/css/schemes/bright-turquoise.css" title="bright-turquoise" media="all"">'?>
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url().'template/css/schemes/bright-turquoise.css" title="bright-turquoise" media="all" '?>">
 
 
 </head>
