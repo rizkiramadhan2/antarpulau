@@ -51,14 +51,14 @@ $('.form-group').each(function() {
 $('.typeahead').typeahead({
     hint: true,
     highlight: true,
-    minLength: 3,
+    minLength: 1,
     limit: 8
 }, {
     source: function(q, cb) {
         return $.ajax({
             dataType: 'json',
             type: 'get',
-            url: 'http://gd.geobytes.com/AutoCompleteCity?callback=?&q=' + q,
+            url: 'get-kota/' + q,
             chache: false,
             success: function(data) {
                 var result = [];
