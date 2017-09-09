@@ -158,7 +158,7 @@
 
                                   <label>Berat</label>
                                   <div class="input-group">
-                                    <input class=" form-control "/>
+                                    <input placeholder="Min 10 Kg" class=" form-control " type="number"/>
 
                                   <span class="input-group-addon">Kg</span>
                                   </div>
@@ -202,7 +202,7 @@
 
                                   <label>Berat</label>
                                   <div class="input-group">
-                                    <input class=" form-control "/>
+                                    <input placeholder="Min 10 Kg" class=" form-control " type="number"/>
 
                                   <span class="input-group-addon">Kg</span>
                                   </div>
@@ -245,7 +245,7 @@
 
                                   <label>Berat</label>
                                   <div class="input-group">
-                                    <input class=" form-control "/>
+                                    <input placeholder="Min 10 Kg" class=" form-control " type="number"/>
 
                                   <span class="input-group-addon">Kg</span>
                                   </div>
