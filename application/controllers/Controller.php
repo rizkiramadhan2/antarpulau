@@ -2,6 +2,12 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Controller extends CI_Controller {
+	function __construct()
+{
+    parent::__construct();
+    $this->load->model('Model');
+  
+}
 
 	/**
 	 * Index Page for this controller.
@@ -20,9 +26,15 @@ class Controller extends CI_Controller {
 	 */
 	public function index()
 	{
-$this->load->view('home');
+		$this->load->view('home');
 	}
-        public function maintenance(){ //Maintenance function     
-$this->load->view('comingsoon'); 
-        }
+    public function maintenance(){ //Maintenance function     
+		$this->load->view('comingsoon'); 
+    }
+    public function get_kota($nama_kota){
+    	$result= $this->Model->read('tb_kota', "nama_kota LIKE '$nama_kota%'");
+    	$arrayName = array('data' => $result );
+    	//print_r($arrayName);
+    	$this->load->view('kota', $arrayName);
+    }
 }
