@@ -153,15 +153,17 @@
                                 <input class="typeahead form-control" placeholder="Kota Tujuan" type="text" />
                             </div>
                           </div>
-                          <div class="col-md-3 col-lg-3">
-                            <div class="form-group form-group-lg form-group-icon-left ">
+                            <div class="col-md-3 col-lg-3">
+                              <div class="form-group form-group-lg ">
 
-                                <label>Berat</label>
+                                  <label>Berat</label>
+                                  <div class="input-group">
+                                    <input class=" form-control "/>
 
-                                <input class=" form-control " placeholder="                                                 /Kg" type="text" style="width:100% ; padding-left:10px" />
-
-
-                          </div>
+                                  <span class="input-group-addon">Kg</span>
+                                  </div>
+                                  
+                            </div>
 
 
                         </div>
@@ -196,13 +198,15 @@
                               </div>
                             </div>
                             <div class="col-md-3 col-lg-3">
-                              <div class="form-group form-group-lg form-group-icon-left ">
+                              <div class="form-group form-group-lg ">
 
                                   <label>Berat</label>
+                                  <div class="input-group">
+                                    <input class=" form-control "/>
 
-                                  <input class=" form-control " placeholder="                                                 /Kg" type="text" style="width:100% ; padding-left:10px" />
-
-
+                                  <span class="input-group-addon">Kg</span>
+                                  </div>
+                                  
                             </div>
 
 
@@ -237,13 +241,15 @@
                               </div>
                             </div>
                             <div class="col-md-3 col-lg-3">
-                              <div class="form-group form-group-lg form-group-icon-left ">
+                              <div class="form-group form-group-lg ">
 
                                   <label>Berat</label>
+                                  <div class="input-group">
+                                    <input class=" form-control "/>
 
-                                  <input class=" form-control " placeholder="                                                 /Kg" type="text" style="width:100% ; padding-left:10px" />
-
-
+                                  <span class="input-group-addon">Kg</span>
+                                  </div>
+                                  
                             </div>
 
 
