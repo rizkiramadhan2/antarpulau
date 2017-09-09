@@ -245,6 +245,7 @@
             <!-- INI FOOTER YA -->
             <div class="gap"></div>
             <div class="gap gap-small"></div>
+            <div class="col-md-8 col-md-offset-2">
             <h2 class="mb20">Explore Our Top Destinations</h2>
             <div class="row row-wrap">
                 <div class="col-md-4">
@@ -286,6 +287,7 @@
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
             <div class="gap gap-small"></div>
         </div>
