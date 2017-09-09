@@ -286,7 +286,7 @@ blockquote:before {
   margin: 0 5px;
 }
 .btn-primary {
-  background: #ed8323;
+  background: #0ebcf2;
   border-color: #e27513;
 }
 .btn-primary:hover {
@@ -1256,7 +1256,7 @@ background: rgba(255, 255, 255, 0.3);
   text-align: center;
 }
 .search-tabs-bg > .tabbable > .nav-tabs > li.active > a {
-  background: #ed8323;
+  background:#0ebcf2;
   color: #fff;
   padding-top: 15px;
   margin-top: -5px;
@@ -8889,6 +8889,9 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
 .owl-carousel.owl-slider .owl-controls .owl-buttons div.owl-prev {
   left: 30px;
 }
+
+
+
 .owl-carousel.owl-slider[data-nav="top-right"] .owl-buttons div {
   top: 20px;
   margin: 0;
@@ -8992,6 +8995,7 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
   -ms-filter: none;
   filter: none;
   text-decoration: none;
+
 }
 .owl-controls .owl-page {
   display: inline-block;
@@ -9052,7 +9056,7 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
   font-size: 17px;
 }
 .owl-controls .owl-buttons div:hover {
-  background: #ed8323;
+  background: #0caadb;
   -webkit-box-shadow: 0 0 0 1px #ed8323;
   box-shadow: 0 0 0 1px #ed8323;
 }
