@@ -134,9 +134,9 @@
 
         <div class="container">
 
-          <div class="col-md-8 col-md-offset-2">
-            <div class="search-tabs search-tabs-bg search-tabs-to-top">
-                <div class="tabbable">
+
+                      <div class="search-tabs search-tabs-bg search-tabs-to-top">
+                          <div class="tabbable col-sm-12 col-md-12 col-lg-12  " style="margin-top: -100px;">
                     <ul class="nav nav-tabs" id="myTab">
                         <li class="active"><a href="#tab-1" data-toggle="tab"><i class="fa fa-truck"></i> <span >Darat</span></a>
                         </li>
@@ -148,74 +148,129 @@
                         </li>
                     </ul>
                     <div class="tab-content">
-                                            <div class="tab-pane fade in active" id="tab-1">
-                                                <h2>Tarif Kirim Barang</h2>
-                                                <form>
-                                                    <div class="form-group form-group-lg form-group-icon-left"><i class="fa fa-map-marker input-icon"></i>
-                                                        <label>Kota Asal</label>
-                                                        <input class="typeahead form-control" placeholder="Kota Asal" type="text" />
-                                                    </div>
-                                                    <div class="form-group form-group-lg form-group-icon-left"><i class="fa fa-map-marker input-icon"></i>
-                                                        <label>Tujuan</label>
-                                                        <input class="typeahead form-control" placeholder="Kota Tujuan" type="text" />
-                                                    </div>
+                      <div class="tab-pane fade in active" id="tab-1">
+                        <h2>Tarif Kirim Barang</h2>
+                        <form>
+                            <div class="col-md-3 col-lg-3">
+                            <div class="form-group form-group-lg form-group-icon-left"><i class="fa fa-map-marker input-icon"></i>
+                                <label>Kota Asal</label>
+                                <input class="typeahead form-control" placeholder="Kota Asal" type="text" />
+                            </div>
+                          </div>
+                            <div class="col-md-3 col-lg-3">
+                            <div class="form-group form-group-lg form-group-icon-left"><i class="fa fa-map-marker input-icon"></i>
+                                <label>Tujuan</label>
+                                <input class="typeahead form-control" placeholder="Kota Tujuan" type="text" />
+                            </div>
+                          </div>
+                          <div class="col-md-3 col-lg-3">
+                            <div class="form-group form-group-lg form-group-icon-left ">
 
-                                                    <div class="form-group form-group-lg form-group-icon-left">
+                                <label>Berat</label>
 
-                                                        <label>Berat</label>
+                                <input class=" form-control " placeholder="                                                 /Kg" type="text" style="width:100% ; padding-left:10px" />
 
-                                                        <input class=" form-control" placeholder="                                       /Kg" type="text" style="width:30% ; padding-left:10px" />
 
-                                                  </div>
+                          </div>
 
-                                                    <button class="btn btn-primary btn-lg" type="submit">Check</button>
-                                                </form>
-                                            </div>
+
+                        </div>
+                        <div class="col-md-3 col-lg-3">
+                          <div class="gap-beneran">
+
+                          </div>
+                          <button class="btn btn-primary btn-lg" type="submit">Check</button>
+
+                      </div>
+
+
+                        </form>
+                        <div class="row">
+
+                        </div>
+                      </div>
+
                         <div class="tab-pane fade" id="tab-2">
                           <h2>Tarif Kirim Barang</h2>
                           <form>
+                              <div class="col-md-3 col-lg-3">
                               <div class="form-group form-group-lg form-group-icon-left"><i class="fa fa-map-marker input-icon"></i>
                                   <label>Kota Asal</label>
                                   <input class="typeahead form-control" placeholder="Kota Asal" type="text" />
                               </div>
+                            </div>
+                              <div class="col-md-3 col-lg-3">
                               <div class="form-group form-group-lg form-group-icon-left"><i class="fa fa-map-marker input-icon"></i>
                                   <label>Tujuan</label>
                                   <input class="typeahead form-control" placeholder="Kota Tujuan" type="text" />
                               </div>
-
-                              <div class="form-group form-group-lg form-group-icon-left">
+                            </div>
+                            <div class="col-md-3 col-lg-3">
+                              <div class="form-group form-group-lg form-group-icon-left ">
 
                                   <label>Berat</label>
 
-                                  <input class=" form-control" placeholder="                                       /Kg" type="text" style="width:30% ; padding-left:10px" />
+                                  <input class=" form-control " placeholder="                                                 /Kg" type="text" style="width:100% ; padding-left:10px" />
+
 
                             </div>
 
-                              <button class="btn btn-primary btn-lg" type="submit">Check</button>
+
+                          </div>
+                          <div class="col-md-3 col-lg-3">
+                            <div class="gap-beneran">
+
+                            </div>
+                            <button class="btn btn-primary btn-lg" type="submit">Check</button>
+
+                        </div>
+
+
                           </form>
+                          <div class="row">
+
+                          </div>
                       </div>
                         <div class="tab-pane fade" id="tab-3">
                           <h2>Tarif Kirim Barang</h2>
                           <form>
+                              <div class="col-md-3 col-lg-3">
                               <div class="form-group form-group-lg form-group-icon-left"><i class="fa fa-map-marker input-icon"></i>
                                   <label>Kota Asal</label>
                                   <input class="typeahead form-control" placeholder="Kota Asal" type="text" />
                               </div>
+                            </div>
+                              <div class="col-md-3 col-lg-3">
                               <div class="form-group form-group-lg form-group-icon-left"><i class="fa fa-map-marker input-icon"></i>
                                   <label>Tujuan</label>
                                   <input class="typeahead form-control" placeholder="Kota Tujuan" type="text" />
                               </div>
-
-                              <div class="form-group form-group-lg form-group-icon-left">
+                            </div>
+                            <div class="col-md-3 col-lg-3">
+                              <div class="form-group form-group-lg form-group-icon-left ">
 
                                   <label>Berat</label>
 
-                                  <input class=" form-control" placeholder="                                       /Kg" type="text" style="width:30% ; padding-left:10px" />
+                                  <input class=" form-control " placeholder="                                                 /Kg" type="text" style="width:100% ; padding-left:10px" />
+
 
                             </div>
 
-                              <button class="btn btn-primary btn-lg" type="submit">Check</button>
+
+                          </div>
+                          <div class="col-md-3 col-lg-3">
+                            <div class="gap-beneran">
+
+                            </div>
+                            <button class="btn btn-primary btn-lg" type="submit">Check</button>
+
+                        </div>
+
+
                           </form>
+                          <div class="row">
+
+                          </div>
                       </div>
                         <div class="tab-pane fade" id="tab-5">
                             <h2>Lacak Kiriman</h2>
@@ -232,14 +287,16 @@
                                         </div>
                                     </div>
                                       <button class="btn btn-primary btn-lg" type="submit">Lacak</button>
+                                      </form>
                                 </div>
 
                                 </div>
                                   </div>
-                            </form>
+
                         </div>
-                    </div>
-                </div>
+                      </div>
+
+
 
 
             <!-- INI FOOTER YA -->
