@@ -215,7 +215,7 @@
                               <div class="col-md-3 col-lg-3">
                               <div class="form-group form-group-lg form-group-icon-left"><i class="fa fa-map-marker input-icon"></i>
                                   <label>Tujuan</label>
-                                  <input name="tujuan" class="typeahead form-control" placeholder="Kota Tujuan" type="text" />
+                                  <input name="tujuan" class="typeahead form-control" placeholder="Kota Tujuan" type="text" required />
                               </div>
                             </div>
                             <div class="col-md-3 col-lg-3">
@@ -223,7 +223,7 @@
 
                                   <label>Berat</label>
                                   <div class="input-group">
-                                    <input name="berat" placeholder="Min 10 Kg" class=" form-control " type="number"/>
+                                    <input name="berat" placeholder="Min 10 Kg" class=" form-control " type="number" required />
 
                                   <span class="input-group-addon">Kg</span>
                                   </div>
@@ -259,7 +259,7 @@
                               <div class="col-md-3 col-lg-3">
                               <div class="form-group form-group-lg form-group-icon-left"><i class="fa fa-map-marker input-icon"></i>
                                   <label>Tujuan</label>
-                                  <input name="tujuan" class="typeahead form-control" placeholder="Kota Tujuan" type="text" />
+                                  <input name="tujuan" class="typeahead form-control" placeholder="Kota Tujuan" type="text" required />
                               </div>
                             </div>
                             <div class="col-md-3 col-lg-3">
@@ -267,7 +267,7 @@
 
                                   <label>Berat</label>
                                   <div class="input-group">
-                                    <input name="berat" placeholder="Min 10 Kg" class=" form-control " type="number"/>
+                                    <input name="berat" placeholder="Min 10 Kg" class=" form-control " type="number" required />
 
                                   <span class="input-group-addon">Kg</span>
                                   </div>
