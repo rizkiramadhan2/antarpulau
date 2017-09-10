@@ -23,8 +23,28 @@
     <script src="<?php echo base_url().'template/js/modernizr.js' ?>"></script>
     <script src="<?php echo base_url().'template/js/jquery.js' ?>"></script>
     <link rel="stylesheet" type="text/css" href="<?php echo base_url().'template/css/schemes/bright-turquoise.css" title="bright-turquoise" media="all" '?>">
-
-
+  <style type="text/css">
+        .se-pre-con {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(img/Rolling-blue.svg) center no-repeat #fff;
+    background-color: white;
+}
+    </style>
+    <script>
+    //paste this code under head tag or in a seperate js file.
+    // Wait for window load
+    //paste this code under head tag or in a seperate js file.
+    // Wait for window load
+    $(window).load(function() {
+        // Animate loader off screen
+        $(".se-pre-con").fadeOut("slow");;
+    });
+</script>
 </head>
 
 <body>
@@ -75,7 +95,7 @@
                 </div>
             </div>
         </header>
-
+<div class="se-pre-con"> </div>
         <!-- INI PAPAN IKLAN / CAROSEL -->
         <div class="top-area show-onload">
             <div class="owl-carousel owl-slider owl-carousel-area" id="owl-carousel-slider">
@@ -370,7 +390,7 @@
                 </div>
             </div>
         </footer>
-
+        </div>
         <script src="<?php echo base_url().'template/js/bootstrap.js' ?>"></script>
         <script src="<?php echo base_url().'template/js/slimmenu.js' ?>"></script>
         <script src="<?php echo base_url().'template/js/bootstrap-datepicker.js' ?>"></script>
@@ -390,7 +410,7 @@
         <script src="<?php echo base_url().'template/js/countdown.js' ?>"></script>
         <script src="<?php echo base_url().'template/js/gridrotator.js' ?>"></script>
         <script src="<?php echo base_url().'template/js/custom.js' ?>"></script>
-    </div>
+   
 </body>
 
 </html>
