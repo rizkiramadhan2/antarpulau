@@ -160,7 +160,7 @@
                     <div class="tab-content">
                       <div class="tab-pane fade in active" id="tab-1">
                         <h2>Tarif Kirim Barang</h2>
-                        <form>
+                        <form action="<?php echo base_url('controller/get_harga'); ?>">
                             <div class="col-md-3 col-lg-3">
                             <div class="form-group form-group-lg form-group-icon-left"><i class="fa fa-map-marker input-icon"></i>
                                 <label>Kota Asal</label>
@@ -170,7 +170,7 @@
                             <div class="col-md-3 col-lg-3">
                             <div class="form-group form-group-lg form-group-icon-left"><i class="fa fa-map-marker input-icon"></i>
                                 <label>Tujuan</label>
-                                <input name="tujuan" class="typeahead form-control" placeholder="Kota Tujuan" type="text" />
+                                <input name="tujuan" class="typeahead form-control" placeholder="Kota Tujuan" type="text"  required />
                             </div>
                           </div>
                             <div class="col-md-3 col-lg-3">
@@ -178,7 +178,7 @@
 
                                   <label>Berat</label>
                                   <div class="input-group">
-                                    <input name="berat" placeholder="Min 10 Kg" class=" form-control " type="number"/>
+                                    <input name="berat" placeholder="Min 10 Kg" class=" form-control " type="number" required />
 
                                   <span class="input-group-addon">Kg</span>
                                   </div>
@@ -191,7 +191,7 @@
                           <div class="gap-beneran">
 
                           </div>
-                          <input name="via" type="hidden" value="darat">
+                          <input name="jalur" type="hidden" value="darat">
                           <button class="btn btn-primary btn-lg" type="submit">Check</button>
 
                       </div>
@@ -205,7 +205,7 @@
 
                         <div class="tab-pane fade" id="tab-2">
                           <h2>Tarif Kirim Barang</h2>
-                          <form>
+                          <form action="<?php echo base_url('controller/get_harga'); ?>">
                               <div class="col-md-3 col-lg-3">
                               <div class="form-group form-group-lg form-group-icon-left"><i class="fa fa-map-marker input-icon"></i>
                                   <label>Kota Asal</label>
@@ -236,7 +236,7 @@
                             <div class="gap-beneran">
 
                             </div>
-                            <input name="via" type="hidden" value="laut">
+                            <input name="jalur" type="hidden" value="laut">
                             <button class="btn btn-primary btn-lg" type="submit">Check</button>
 
                         </div>
@@ -249,7 +249,7 @@
                       </div>
                         <div class="tab-pane fade" id="tab-3">
                           <h2>Tarif Kirim Barang</h2>
-                          <form>
+                          <form action="<?php echo base_url('controller/get_harga'); ?>">
                               <div class="col-md-3 col-lg-3">
                               <div class="form-group form-group-lg form-group-icon-left"><i class="fa fa-map-marker input-icon"></i>
                                   <label>Kota Asal</label>
@@ -280,7 +280,7 @@
                             <div class="gap-beneran">
 
                             </div>
-                            <input name="via" type="hidden" value="udara">
+                            <input name="jalur" type="hidden" value="udara">
                             <button class="btn btn-primary btn-lg" type="submit">Check</button>
 
                         </div>
@@ -313,6 +313,7 @@
                                   </div>
 
                         </div>
+                        <div id="result"></div>
                       </div>
 
 
@@ -413,6 +414,26 @@
         <script src="<?php echo base_url().'template/js/countdown.js' ?>"></script>
         <script src="<?php echo base_url().'template/js/gridrotator.js' ?>"></script>
         <script src="<?php echo base_url().'template/js/custom.js' ?>"></script>
+
+        <script type="text/javascript">
+          $(document).ready(function(){
+            $('form').on('submit', function(e){
+              e.preventDefault();
+              $.ajax({
+                url: $(this).attr('action'),
+                type: 'get',
+                data: $(this).serialize(),
+                // dataType: 'html',
+              }).done(function(result){
+                $('#result').html(result);
+                
+              });
+            });
+          });
+        </script>
+
+        
+    });
    
 </body>
 

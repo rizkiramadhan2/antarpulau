@@ -37,4 +37,19 @@ class Controller extends CI_Controller {
     	//print_r($arrayName);
     	$this->load->view('kota', $arrayName);
     }
+
+    public function get_harga(){
+    	$arrayName['nama_kota'] = explode(',', $_GET['tujuan'])[0];
+
+    	// var_dump($arrayName);
+
+    	$result = $this->Model->read('tb_kota', $arrayName);
+
+    	// var_dump($result);
+
+    	$data['result'] = $result;
+
+    	$this->load->view('price_table', $data);
+
+    }
 }
