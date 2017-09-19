@@ -160,7 +160,7 @@
                     <div class="tab-content">
                       <div class="tab-pane fade in active" id="tab-1">
                         <h2>Tarif Kirim Barang</h2>
-                        <form action="<?php echo base_url('controller/get_harga'); ?>">
+                        <form action="<?php echo base_url('get-harga'); ?>">
                             <div class="col-md-3 col-lg-3">
                             <div class="form-group form-group-lg form-group-icon-left"><i class="fa fa-map-marker input-icon"></i>
                                 <label>Kota Asal</label>
@@ -205,7 +205,7 @@
 
                         <div class="tab-pane fade" id="tab-2">
                           <h2>Tarif Kirim Barang</h2>
-                          <form action="<?php echo base_url('controller/get_harga'); ?>">
+                          <form action="<?php echo base_url('get-harga'); ?>">
                               <div class="col-md-3 col-lg-3">
                               <div class="form-group form-group-lg form-group-icon-left"><i class="fa fa-map-marker input-icon"></i>
                                   <label>Kota Asal</label>
@@ -249,7 +249,7 @@
                       </div>
                         <div class="tab-pane fade" id="tab-3">
                           <h2>Tarif Kirim Barang</h2>
-                          <form action="<?php echo base_url('controller/get_harga'); ?>">
+                          <form action="<?php echo base_url('get-harga'); ?>">
                               <div class="col-md-3 col-lg-3">
                               <div class="form-group form-group-lg form-group-icon-left"><i class="fa fa-map-marker input-icon"></i>
                                   <label>Kota Asal</label>
