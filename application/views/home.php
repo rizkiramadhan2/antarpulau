@@ -320,50 +320,41 @@
 
 
             <!-- INI FOOTER YA -->
-            <div class="gap"></div>
-            <div class="gap gap-small"></div>
-            <div class="col-md-8 col-md-offset-2">
-            <h2 class="mb20">Explore Our Top Destinations</h2>
+            <div class="text-center row">
+              <div class="col-md-8 col-md-offset-2">
+            <h2 class="mb20">Kenapa Antar Pulau?</h2>
             <div class="row row-wrap">
                 <div class="col-md-4">
                     <div class="thumb">
-                        <header class="thumb-header">
-                            <a class="hover-img curved" href="#">
-                                <img src="img/400x300.png" alt="Image Alternative text" title="the journey home" /><i class="fa fa-plus box-icon-white box-icon-border hover-icon-top-right round"></i>
-                            </a>
+                        <header class="thumb-header"><i class="fa fa-check-square-o box-icon-md round box-icon-black box-icon-center animate-icon-top-to-bottom"></i>
                         </header>
                         <div class="thumb-caption">
-                            <h4 class="thumb-title">Africa</h4>
+                            <h4 class="thumb-title">Mudah</h4>
                             <p class="thumb-desc">Fusce nascetur proin ligula nisi at scelerisque odio cum accumsan</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="thumb">
-                        <header class="thumb-header">
-                            <a class="hover-img curved" href="#">
-                                <img src="img/800x600.png" alt="Image Alternative text" title="people on the beach" /><i class="fa fa-plus box-icon-white box-icon-border hover-icon-top-right round"></i>
-                            </a>
+                        <header class="thumb-header"><i class="fa fa-usd box-icon-md round box-icon-black box-icon-center animate-icon-top-to-bottom"></i>
                         </header>
                         <div class="thumb-caption">
-                            <h4 class="thumb-title">Australia</h4>
+                            <h4 class="thumb-title">Murah</h4>
                             <p class="thumb-desc">Dignissim himenaeos varius vulputate nullam a leo congue feugiat himenaeos</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="thumb">
-                        <header class="thumb-header">
-                            <a class="hover-img curved" href="#">
-                                <img src="img/800x600.png" alt="Image Alternative text" title="Upper Lake in New York Central Park" /><i class="fa fa-plus box-icon-white box-icon-border hover-icon-top-right round"></i>
-                            </a>
+                        <header class="thumb-header"><i class="fa fa-lock box-icon-md round box-icon-black box-icon-center animate-icon-top-to-bottom"></i>
                         </header>
                         <div class="thumb-caption">
-                            <h4 class="thumb-title">USA</h4>
+                            <h4 class="thumb-title">Aman</h4>
                             <p class="thumb-desc">Orci vehicula ac sit vulputate nisl torquent donec litora per</p>
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
             </div>
             <div class="gap gap-small"></div>
@@ -431,10 +422,6 @@
             });
           });
         </script>
-
-        
-    });
-   
 </body>
 
 </html>
