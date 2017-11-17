@@ -55,6 +55,7 @@ $route['authentification'] = 'admin/login';
 $route['get-harga'] = 'controller/get_harga';
 $route['get-kota/(:any)'] = 'controller/get_kota/$1';
 $route['home'] = 'controller/index';
+$route['layanan'] = 'controller/layanan';
 $route['default_controller'] = 'controller/maintenance';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

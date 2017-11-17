@@ -25,10 +25,15 @@ class Controller extends CI_Controller {
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
 
-	 public function tempalte()
+	public function tempalte()
  	{
  		$this->load->template('index-1');
  	}
+
+    public function layanan()
+    {
+        $this->load->view('layanan');
+    }
 
 	public function index()
 	{
