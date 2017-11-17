@@ -48,7 +48,7 @@
 
   <body>
     <div class="global-wrap">
-      
+
       <!--INI NAVBAR-->
       <header id="main-header">
 
@@ -61,7 +61,7 @@
                               <img src="img/antarpulau.svg" height="44px" alt="Image Alternative text" title="Image Title" />
                           </a>
                       </div>
-                      
+
 
                       <!-- INI NAVBAR YA -->
                       <div class="col-md-9">
@@ -90,7 +90,7 @@
           </div>
       </header>
       <!--INI PENUTUP BAGIAN NAVBAR-->
-      
+
       <!-- INI PAPAN IKLAN / CAROSEL -->
       <div class="top-area show-onload">
         <div class="owl-carousel owl-slider owl-carousel-area" id="owl-carousel-slider">
@@ -140,11 +140,7 @@
         <div class="search-tabs search-tabs-bg search-tabs-to-top">
           <div class="tabbable col-sm-12 col-md-12 col-lg-12  " style="margin-top: -100px;">
             <ul class="nav nav-tabs" id="myTab">
-                <li class="active"><a href="#tab-1" data-toggle="tab"><i class="fa fa-truck"></i> <span >Darat</span></a>
-                </li>
-                <li><a href="#tab-2" data-toggle="tab"><i class="fa  fa-anchor"></i> <span >Laut</span></a>
-                </li>
-                <li><a href="#tab-3" data-toggle="tab"><i class="fa fa-plane"></i> <span >Udara</span></a>
+                <li class="active"><a href="#tab-1" data-toggle="tab"><i class="fa fa-truck"></i> <span >Tarif</span></a>
                 </li>
                 <li><a href="#tab-5" data-toggle="tab"><i class="fa fa-search"></i> <span >Lacak</span></a>
                 </li>
@@ -153,13 +149,7 @@
                 <div class="tab-pane fade in active" id="tab-1">
                   <h2>Tarif Kirim Barang</h2>
                     <form action="<?php echo base_url('get-harga'); ?>">
-                      <div class="col-md-3 col-lg-3">
-                        <div class="form-group form-group-lg form-group-icon-left"><i class="fa fa-map-marker input-icon"></i>
-                          <label>Kota Asal</label>
-                          <input name="asal" class="typeahead form-control" placeholder="Kota Asal" type="text" />
-                        </div>
-                      </div>
-                      <div class="col-md-3 col-lg-3">
+                      <div class="col-md-6 col-lg-6">
                         <div class="form-group form-group-lg form-group-icon-left"><i class="fa fa-map-marker input-icon"></i>
                         <label>Tujuan</label>
                         <input name="tujuan" class="typeahead form-control" placeholder="Kota Tujuan" type="text"  required />
@@ -185,74 +175,7 @@
 
                     </div>
                 </div>
-                <div class="tab-pane fade" id="tab-2">
-                  <h2>Tarif Kirim Barang</h2>
-                    <form action="<?php echo base_url('get-harga'); ?>">
-                      <div class="col-md-3 col-lg-3">
-                        <div class="form-group form-group-lg form-group-icon-left"><i class="fa fa-map-marker input-icon"></i>
-                          <label>Kota Asal</label>
-                          <input name="asal" class="typeahead form-control" placeholder="Kota Asal" type="text" />
-                        </div>
-                      </div>
-                      <div class="col-md-3 col-lg-3">
-                        <div class="form-group form-group-lg form-group-icon-left"><i class="fa fa-map-marker input-icon"></i>
-                          <label>Tujuan</label>
-                          <input name="tujuan" class="typeahead form-control" placeholder="Kota Tujuan" type="text" required />
-                        </div>
-                      </div>
-                      <div class="col-md-3 col-lg-3">
-                        <div class="form-group form-group-lg ">
-                        <label>Berat</label>
-                          <div class="input-group">
-                            <input name="berat" placeholder="Min 10 Kg" class=" form-control " type="number" required />
-                            <span class="input-group-addon">Kg</span>
-                          </div>   
-                        </div>
-                      </div>
-                      <div class="col-md-3 col-lg-3">
-                        <div class="gap-beneran">
-                        </div>
-                        <input name="jalur" type="hidden" value="laut">
-                        <button class="btn btn-primary btn-lg" type="submit">Check</button>
-                      </div>
-                    </form>
-                    <div class="row">
-                    </div>
-                </div>
-                <div class="tab-pane fade" id="tab-3">
-                  <h2>Tarif Kirim Barang</h2>
-                    <form action="<?php echo base_url('get-harga'); ?>">
-                      <div class="col-md-3 col-lg-3">
-                        <div class="form-group form-group-lg form-group-icon-left"><i class="fa fa-map-marker input-icon"></i>
-                          <label>Kota Asal</label>
-                          <input name="asal" class="typeahead form-control" placeholder="Kota Asal" type="text" />
-                        </div>
-                      </div>
-                      <div class="col-md-3 col-lg-3">
-                        <div class="form-group form-group-lg form-group-icon-left"><i class="fa fa-map-marker input-icon"></i>
-                          <label>Tujuan</label>
-                          <input name="tujuan" class="typeahead form-control" placeholder="Kota Tujuan" type="text" required />
-                        </div>
-                      </div>
-                      <div class="col-md-3 col-lg-3">
-                        <div class="form-group form-group-lg ">
-                          <label>Berat</label>
-                          <div class="input-group">
-                            <input name="berat" placeholder="Min 10 Kg" class=" form-control " type="number" required />
-                              <span class="input-group-addon">Kg</span>
-                          </div>  
-                        </div>
-                      </div>
-                      <div class="col-md-3 col-lg-3">
-                        <div class="gap-beneran">
-                        </div>
-                        <input name="jalur" type="hidden" value="udara">
-                        <button class="btn btn-primary btn-lg" type="submit">Check</button>
-                      </div>
-                    </form>
-                    <div class="row">
-                    </div>
-                </div>
+
                 <div class="tab-pane fade" id="tab-5">
                   <h2>Lacak Kiriman</h2>
                     <form>
@@ -272,10 +195,10 @@
             </div>
           </div>
         </div>
-        <div class="gap"></div>
         <!--END KOTAK TARIF BARANG-->
+        <div class="gap"></div>
 
-        <!-- INI FOOTER YA -->
+        <!-- INI KONTEN -->
         <div class="text-center row">
           <div class="col-md-8 col-md-offset-2">
             <h2 class="mb20">Kenapa Antar Pulau?</h2>
@@ -313,10 +236,12 @@
               </div>
           </div>
         </div>
+        <div class="gap"></div>
         <!-- INI PENUTUP FOOTER YA -->
       </div>
+
       <!--INI PENUTUP BAGIAN TENGAH-->
-      
+
       <!--INI BAGIAN FOOTER-->
       <footer id="main-footer">
         <div class="container">
@@ -372,7 +297,7 @@
             // dataType: 'html',
           }).done(function(result){
             $('#result').html(result);
-            
+
           });
         });
       });
