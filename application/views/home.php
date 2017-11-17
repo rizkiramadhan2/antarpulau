@@ -149,7 +149,7 @@
             <div class="tab-content">
                 <div class="tab-pane fade in active" id="tab-1">
                   <h2>Tarif Kirim Barang</h2>
-                    <form action="<?php echo base_url('get-harga'); ?>">
+                    <form id="form-tarif" action="<?php echo base_url('get-harga'); ?>">
                       <div class="col-md-6 col-lg-6">
                         <div class="form-group form-group-lg form-group-icon-left"><i class="fa fa-map-marker input-icon"></i>
                         <label>Tujuan</label>
@@ -179,7 +179,7 @@
 
                 <div class="tab-pane fade" id="tab-5">
                   <h2>Lacak Kiriman</h2>
-                    <form>
+                    <form action="<?php echo base_url().'cek-resi' ?>">
                       <div class="row">
                         <div class="col-md-8">
                           <div class="form-group form-group-lg form-group-icon-left"><i class="fa fa-search input-icon input-icon-tada"></i>
@@ -198,6 +198,10 @@
         </div>
         <!--END KOTAK TARIF BARANG-->
         <div class="gap"></div>
+
+        <!--INI HASIL CEK TARIF,JANGAN DIHAPUS-->
+        <div id="result"></div>
+
 
         <!-- INI KONTEN -->
         <div class="text-center row">
@@ -289,7 +293,7 @@
 
     <script type="text/javascript">
       $(document).ready(function(){
-        $('form').on('submit', function(e){
+        $('#form-tarif').on('submit', function(e){
           e.preventDefault();
           $.ajax({
             url: $(this).attr('action'),
