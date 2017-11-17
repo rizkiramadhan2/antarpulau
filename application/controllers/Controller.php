@@ -72,4 +72,10 @@ class Controller extends CI_Controller {
     	$this->load->view('price_table', $data);
 
     }
+     public function cek_resi(){
+        $no_resi = $_GET['resi'];
+        $arrayName = array('no_resi' => $no_resi );
+        $result = $this->Model->read('resi',$arrayName);
+        print_r($result);
+    }
 }
