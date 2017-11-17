@@ -72,7 +72,7 @@
                                   <li class="top-user-area-avatar">
                                       <a href="#">Home</a>
                                   </li>
-                                  <li><a href="#">Layanan</a>
+                                  <li><a href="layanan.php">Layanan</a>
                                   </li>
                                   <li>
                                       <a href="#">Perusahaan</a>
