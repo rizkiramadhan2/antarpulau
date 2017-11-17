@@ -6,7 +6,7 @@ class Controller extends CI_Controller {
 {
     parent::__construct();
     $this->load->model('Model');
-  
+
 }
 
 	/**
@@ -24,12 +24,18 @@ class Controller extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
+
+	 public function tempalte()
+ 	{
+ 		$this->load->template('index-1');
+ 	}
+
 	public function index()
 	{
 		$this->load->view('home');
 	}
-    public function maintenance(){ //Maintenance function     
-		$this->load->view('comingsoon'); 
+    public function maintenance(){ //Maintenance function
+		$this->load->view('comingsoon');
     }
     public function get_kota($nama_kota){
     	$result= $this->Model->read('tb_kota', "nama_kota LIKE '$nama_kota%'");
