@@ -50,12 +50,43 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |		my-controller/my-method	-> my_controller/my_method
 */
 //$route['maintenance'] = 'controller/maintenance';
+
+//admin
 $route['login'] = 'admin/index';
 $route['authentification'] = 'admin/login';
+
+//controller
 $route['get-harga'] = 'controller/get_harga';
 $route['get-kota/(:any)'] = 'controller/get_kota/$1';
 $route['home'] = 'controller/index';
 $route['layanan'] = 'controller/layanan';
+$route['cek-resi'] = 'controller/cek_resi';
+
+
+
+
+
+
+//lain-lain
 $route['default_controller'] = 'controller/maintenance';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
