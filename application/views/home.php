@@ -183,7 +183,7 @@
                         <div class="col-md-8">
                           <div class="form-group form-group-lg form-group-icon-left"><i class="fa fa-search input-icon input-icon-tada"></i>
                             <label>Masukkan Nomer Resi :</label>
-                            <input class="form-control" placeholder="Nomer Resi" type="text" />
+                            <input name="resi" class="form-control" placeholder="Nomer Resi" type="text" />
                           </div>
                         </div>
                         <div class="col-md-4">
