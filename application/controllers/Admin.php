@@ -29,4 +29,7 @@ public function page(){
             echo "success";
         }
     }
+		public function show_transaction_table(){
+			$this->load->view('admin/transaction_table');
+		}
 }

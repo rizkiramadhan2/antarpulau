@@ -55,6 +55,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['login'] = 'admin/index';
 $route['authentification'] = 'admin/login';
 $route['admin'] = 'admin/page';
+$route['show-transaction'] = 'admin/show_transaction_table';
+
+
 
 //controller
 $route['get-harga'] = 'controller/get_harga';

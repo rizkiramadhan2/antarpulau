@@ -64,38 +64,36 @@
           <div class="row">
               <div class="col-md-3">
                   <aside class="user-profile-sidebar">
-                      <div class="user-profile-avatar text-center">
-                          <img src="img/300x300.png" alt="Image Alternative text" title="AMaze" />
-                          <h5>John Doe</h5>
-                          <p>Member Since May 2012</p>
+                      <div >
+
+                          <h5>Johni</h5>
+
                       </div>
                       <ul class="list user-profile-nav">
-                          <li><a href="user-profile.html"><i class="fa fa-user"></i>Overview</a>
+                          <li><a href="user-profile.html"><i class="fa fa-user"></i>Kirim Barang</a>
                           </li>
-                          <li><a href="user-profile-settings.html"><i class="fa fa-cog"></i>Settings</a>
+                          <li><a href="user-profile-settings.html"><i class="fa fa-cog"></i>Update Status</a>
                           </li>
-                          <li><a href="user-profile-photos.html"><i class="fa fa-camera"></i>My Travel Photos</a>
+                          <li><a href="user-profile-photos.html"><i class="fa fa-camera"></i>Lacak Kiriman</a>
                           </li>
-                          <li><a href="user-profile-booking-history.html"><i class="fa fa-clock-o"></i>Booking History</a>
+                          <li><a id="transaksi" href="#"><i class="fa fa-clock-o"></i>Transaksi</a>
                           </li>
-                          <li><a href="user-profile-cards.html"><i class="fa fa-credit-card"></i>Credit/Debit Cards</a>
-                          </li>
-                          <li><a href="user-profile-wishlist.html"><i class="fa fa-heart-o"></i>Wishlist</a>
+                          <li><a href="user-profile-cards.html"><i class="fa fa-credit-card"></i>Update Harga</a>
                           </li>
                       </ul>
                   </aside>
               </div>
               <div class="col-md-9">
                 <!-- Menampilkan Table (PENTING)-->
-                  <?php
-                    $this->load->view('admin/tables');
-                   ?>
+
                     <div class="gap"></div>
               </div>
           </div>
       </div>
       <!--INI PENUTUP BAGIAN TENGAH-->
+      <div id="table">
 
+      </div>
       <!--INI BAGIAN FOOTER-->
       <?php
         $this->load->view('footer');
@@ -127,15 +125,15 @@
 
     <script type="text/javascript">
       $(document).ready(function(){
-        $('#form-tarif').on('submit', function(e){
+        $('#transaksi').on('click', function(e){
           e.preventDefault();
           $.ajax({
-            url: $(this).attr('action'),
+            url: "<?php echo base_url().'show-transaction/' ?>",
             type: 'get',
             data: $(this).serialize(),
             // dataType: 'html',
           }).done(function(result){
-            $('#result').html(result);
+            $('#table').html(result);
 
           });
         });
