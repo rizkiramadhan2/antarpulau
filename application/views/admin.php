@@ -50,7 +50,9 @@
     <div class="global-wrap">
 
       <!--INI NAVBAR-->
-        <?= $header ?>
+        <?php
+          $this->load->view('header');
+         ?>
       <!--INI PENUTUP BAGIAN NAVBAR-->
 
       <!-- INI PAPAN IKLAN / CAROSEL -->
@@ -85,17 +87,19 @@
               </div>
               <div class="col-md-9">
                 <!-- Menampilkan Table (PENTING)-->
-                  <?=
-                     $tables
-                    ?>
-                  <div id="map-canvas" style="width:100%; height:400px;"></div>
+                  <?php
+                    $this->load->view('admin/tables');
+                   ?>
+                    <div class="gap"></div>
               </div>
           </div>
       </div>
       <!--INI PENUTUP BAGIAN TENGAH-->
 
       <!--INI BAGIAN FOOTER-->
-      <?= $footer ?>
+      <?php
+        $this->load->view('footer');
+      ?>
       <!--INI PENUTUP BAGIAN FOOTER-->
 
     </div>

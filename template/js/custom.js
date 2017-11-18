@@ -210,7 +210,7 @@ $(document).ready(
     var docHeight = $(window).height();
    var footerHeight = $('#main-footer').height();
    var footerTop = $('#main-footer').position().top + footerHeight;
-   
+
    if (footerTop < docHeight) {
     $('#main-footer').css('margin-top', (docHeight - footerTop) + 'px');
    }
@@ -301,7 +301,7 @@ $('.form-group-cc-cvc input').payment('formatCardCVC');
 
 
 
-if ($('#map-canvas').length) {
+/*if ($('#map-canvas').length) {
     var map,
         service;
 
@@ -331,7 +331,7 @@ if ($('#map-canvas').length) {
             });
         });
     });
-}
+}*/
 
 
 $('.card-select > li').click(function() {

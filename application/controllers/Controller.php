@@ -40,9 +40,8 @@ class Controller extends CI_Controller {
 
 	public function index()
 	{
-		$data['header']=$this->load->view('header', NULL, TRUE);
-		$data['footer']=$this->load->view('footer', NULL, TRUE);
-		$this->load->view('home', $data);
+
+		$this->load->view('home');
 	}
     public function maintenance(){ //Maintenance function
 		$this->load->view('comingsoon');

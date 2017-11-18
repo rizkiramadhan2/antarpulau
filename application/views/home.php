@@ -50,7 +50,9 @@
     <div class="global-wrap">
 
       <!--INI NAVBAR-->
-    <?= $header ?>
+    <?php
+      $this->load->view('header');
+    ?>
       <!--INI PENUTUP BAGIAN NAVBAR-->
 
       <!-- INI PAPAN IKLAN / CAROSEL -->
@@ -209,7 +211,9 @@
       <!--INI PENUTUP BAGIAN TENGAH-->
 
       <!--INI BAGIAN FOOTER-->
-      <?= $footer ?>
+      <?php
+        $this->load->view('footer');
+      ?>
       <!--INI PENUTUP BAGIAN FOOTER-->
 
     </div>
