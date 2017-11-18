@@ -6,7 +6,14 @@ class Admin extends CI_Controller {
 {
     parent::__construct();
     $this->load->model('Model');
-  
+
+}
+
+public function page(){
+		$data['tables']=$this->load->view('admin/tables', NULL, TRUE);
+		$data['header']=$this->load->view('header', NULL, TRUE);
+		$data['footer']=$this->load->view('footer', NULL, TRUE);
+		$this->load->view('admin', $data);
 }
 
     public function index(){

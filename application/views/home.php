@@ -50,46 +50,7 @@
     <div class="global-wrap">
 
       <!--INI NAVBAR-->
-      <header id="main-header">
-
-          <div class="header-top">
-              <div class="container">
-
-                  <div class="row">
-                      <div class="col-md-3">
-                          <a class="logo" href="index.html">
-                              <img src="img/antarpulau.svg" height="44px" alt="Image Alternative text" title="Image Title" />
-                          </a>
-                      </div>
-
-
-                      <!-- INI NAVBAR YA -->
-                      <div class="col-md-9">
-
-                          <div class="top-user-area clearfix">
-
-                              <ul class="top-user-area-list list list-horizontal list-border">
-                                  <li class="top-user-area-avatar">
-                                      <a href="#">Home</a>
-                                  </li>
-                                  
-                                  <li><a href="<?php echo base_url().'layanan' ?>">Layanan</a>
-                                  </li>
-                                  <li>
-                                      <a href="#">Perusahaan</a>
-                                  </li>
-                                  <li>
-                                      <a href="#">Costumer Service</a>
-                                  </li>
-
-                              </ul>
-                          </div>
-                      </div>
-
-                  </div>
-              </div>
-          </div>
-      </header>
+    <?= $header ?>
       <!--INI PENUTUP BAGIAN NAVBAR-->
 
       <!-- INI PAPAN IKLAN / CAROSEL -->
@@ -248,24 +209,7 @@
       <!--INI PENUTUP BAGIAN TENGAH-->
 
       <!--INI BAGIAN FOOTER-->
-      <footer id="main-footer">
-        <div class="container">
-          <div class="row row-wrap">
-            <div class="col-md-3">
-            </div>
-            <div class="col-md-3">
-            </div>
-            <div class="col-md-2">
-            </div>
-            <div class="col-md-4">
-              <h4>Have Questions?</h4>
-              <h4 class="text-color">+1-202-555-0173</h4>
-              <h4><a href="#" class="text-color">support@traveler.com</a></h4>
-              <p>24/7 Dedicated Customer Support</p>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <?= $footer ?>
       <!--INI PENUTUP BAGIAN FOOTER-->
 
     </div>

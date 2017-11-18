@@ -7,6 +7,7 @@ class Controller extends CI_Controller {
     parent::__construct();
     $this->load->model('Model');
 
+
 }
 
 	/**
@@ -25,6 +26,8 @@ class Controller extends CI_Controller {
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
 
+
+
 	public function tempalte()
  	{
  		$this->load->template('index-1');
@@ -37,7 +40,9 @@ class Controller extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->view('home');
+		$data['header']=$this->load->view('header', NULL, TRUE);
+		$data['footer']=$this->load->view('footer', NULL, TRUE);
+		$this->load->view('home', $data);
 	}
     public function maintenance(){ //Maintenance function
 		$this->load->view('comingsoon');
