@@ -85,15 +85,15 @@
               </div>
               <div class="col-md-9">
                 <!-- Menampilkan Table (PENTING)-->
+<div id="table">
 
+      </div>
                     <div class="gap"></div>
               </div>
           </div>
       </div>
       <!--INI PENUTUP BAGIAN TENGAH-->
-      <div id="table">
-
-      </div>
+      
       <!--INI BAGIAN FOOTER-->
       <?php
         $this->load->view('footer');
